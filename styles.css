@@ -1,0 +1,74 @@
+body {
+    background-image: url(_img/fundo.jpg);
+    background-size: cover;
+
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #f8f8f8;
+}
+    
+header {
+    
+    color: #fff;
+    text-align: center;
+    padding: 17px ;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+main {
+    margin: 20px auto;
+}
+section {
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    ;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+p {
+    
+        text-indent: 40px; /* Define o recuo para a primeira linha */
+    }   
+/* Estilizando links da lista */
+ul li a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #000; /* Define a cor do texto padrão */
+    transition: color 0.3s; /* Adiciona uma transição suave de cor */
+}
+
+/* Estilizando links da lista ao passar o mouse por cima */
+ul li a:hover {
+    color: #00ff37; /* Altera a cor do texto ao passar o mouse por cima */
+    text-decoration-line: underline;
+    
+    
+}
+
+h1{
+    text-decoration: underline;
+    color: greenyellow;
+}
+
