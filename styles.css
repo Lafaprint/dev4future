@@ -29,6 +29,7 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
+    
 }
 main {
     margin: 20px auto;
@@ -55,20 +56,25 @@ p {
 /* Estilizando links da lista */
 ul li a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #000; /* Define a cor do texto padrão */
+    color: #504b4b; /* Define a cor do texto padrão */
     transition: color 0.3s; /* Adiciona uma transição suave de cor */
 }
 
 /* Estilizando links da lista ao passar o mouse por cima */
 ul li a:hover {
-    color: #00ff37; /* Altera a cor do texto ao passar o mouse por cima */
+    color: #fbfcfb; /* Altera a cor do texto ao passar o mouse por cima */
     text-decoration-line: underline;
+    background-color: rgba(104, 96, 96, 0.7), 0.7);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
     
     
 }
 
 h1{
     text-decoration: underline;
-    color: greenyellow;
+    color: rgb(225, 228, 222);
 }
 
