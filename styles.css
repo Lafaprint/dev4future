@@ -1,7 +1,4 @@
 body {
-    background-image: url(_img/fundodev.jpeg);
-    background-size: cover;
-
     font-family: Arial, Helvetica, sans-serif ;
     margin: 0;
     padding: 0;
@@ -64,7 +61,7 @@ ul li a {
 ul li a:hover {
     color: #fbfcfb; /* Altera a cor do texto ao passar o mouse por cima */
     text-decoration-line: underline;
-    background-color: rgba(104, 96, 96, 0.7), 0.7);
+    background-color: rgba(104, 96, 96, 0.7);
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
