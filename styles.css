@@ -3,13 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: url(_img/imgdev.jpg);
-    background-size: cover;
-    align-items: center center;
-    justify-content: center;
-    text-align: center center;
-    display: flex;
-    flex-direction: column; /* Align items in a column */
-    height: 45vh;
+    
 }
 
 header {
@@ -53,7 +47,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 p{
@@ -95,6 +89,10 @@ h2{
     font-size: 30px;
     text-align: center;
     
+}
+
+form{
+    text-align: center;
 }
 
 
