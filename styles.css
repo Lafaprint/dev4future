@@ -1,52 +1,58 @@
 body {
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background: url(_img/fundodev.jpeg);
     background-size: cover;
-    height: 100vh;
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    height: 30vh;
 }
 
-    
 header {
-    
-    color: #fff;
+    color: #552c2c;
     text-align: center;
-    padding: 17px ;
+    padding: 17px;
 }
+
+nav {
+    margin-top: 0px; /* Adjust the top margin to center the menu */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin: 0 10px;
 }
+
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #8d2020;
     font-size: 25px;
-    
 }
+
 main {
     margin: 20px auto;
 }
+
 section {
     margin: 40px 0;
     padding: 20px;
     border-radius: 5px;
 }
+
 footer {
     text-align: center;
-    ;
-    color: #fff;
+    color: #380a0a;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -54,33 +60,26 @@ footer {
 }
 
 p {
-    
-        text-indent: 40px; /* Define o recuo para a primeira linha */
-    }   
-/* Estilizando links da lista */
-ul li a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #504b4b; /* Define a cor do texto padrão */
-    transition: color 0.3s; /* Adiciona uma transição suave de cor */
+    text-indent: 40px;
 }
 
-/* Estilizando links da lista ao passar o mouse por cima */
+ul li a {
+    text-decoration: none;
+    color: #504b4b;
+    transition: color 0.3s;
+}
+
 ul li a:hover {
-    color: #fbfcfb; /* Altera a cor do texto ao passar o mouse por cima */
+    color: #641c1c;
     text-decoration-line: underline;
-    background-color: rgba(104, 96, 96, 0.7);
+    background-color: rgba(145, 10, 10, 0.7);
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-    
-    
-
-
-h1{
+h1 {
     text-decoration: underline;
-    color: rgb(225, 228, 222);
+    color: rgb(170, 8, 8);
+    padding: 0;
+    margin: 0;
 }
-
-
-
