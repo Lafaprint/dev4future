@@ -2,10 +2,16 @@ body {
     font-family: Arial, Helvetica, sans-serif ;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #f8f8f8;
+    background: url(_img/fundo.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     
 }
+
     
 header {
     
