@@ -68,17 +68,18 @@ ul li a {
     text-decoration: none;
     color: rgb(22, 224, 180);
     transition: color 0.3s;
+    
 }
 
 ul li a:hover {
     color: rgb(10, 231, 132);
     background-color: rgba(88, 197, 60, 0.3);
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
 }
+    
 
 h1 {
-    font-family:Arial, Helvetica, sans-serif;
+    
     color: rgb(22, 224, 180);
     padding: 0;
     margin: 0;
@@ -91,8 +92,8 @@ h2{
     color: rgb(90, 160, 32);
     padding: 0;
     margin: 0;
-    text-align: center;
     font-size: 30px;
+    text-align: center;
     
 }
 
