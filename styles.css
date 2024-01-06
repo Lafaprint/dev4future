@@ -9,13 +9,14 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column; /* Align items in a column */
-    height: 30vh;
+    height: 35vh;
 }
 
 header {
-    color: #552c2c;
+    color: rgb(89, 82, 182);
     text-align: center;
     padding: 17px;
+    height: 30vh;
 }
 
 nav {
@@ -36,12 +37,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #8d2020;
+    color: rgb(89, 82, 182);
     font-size: 25px;
-}
-
-main {
-    margin: 20px auto;
 }
 
 section {
@@ -52,34 +49,49 @@ section {
 
 footer {
     text-align: center;
-    color: #380a0a;
+    color: rgb(89, 82, 182);
     position: fixed;
     bottom: 0;
     width: 100%;
     padding: 10px 0;
 }
 
-p {
-    text-indent: 40px;
+p{
+    color: rgb(89, 82, 182);
+    padding: 5px 0;
+    margin: 0;  
+    text-align: center; 
 }
 
 ul li a {
     text-decoration: none;
-    color: #504b4b;
+    color: rgb(89, 82, 182);
     transition: color 0.3s;
 }
 
 ul li a:hover {
-    color: #641c1c;
+    color: rgb(166, 168, 17);
     text-decoration-line: underline;
-    background-color: rgba(145, 10, 10, 0.7);
+    
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-decoration: underline;
-    color: rgb(170, 8, 8);
+    color: rgb(89, 82, 182);
     padding: 0;
     margin: 0;
 }
+
+h2{
+    text-decoration: underline;
+    color: rgb(89, 82, 182);
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
